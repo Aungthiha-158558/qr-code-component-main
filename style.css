@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap);
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainer{
+    width: 280px;
+    height: 430px;
+    border-radius: 15px;
+    background-color:white;
+    position: relative;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.container img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.container h3{
+    font-family: Outfit;
+    font-weight: 700;
+    color:   hsl(218, 44%, 22%);
+    text-align: center;
+}
+.container p{
+    text-align: center;
+    font-size: 14px;
+    font-family: Ourfit;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
